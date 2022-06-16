@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Day2
+    </title>
+    <style>
+    marquee{
+        color: red ;
+        font-size:50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+
+    }
+    label{
+        color:blue;
+
+    }
+    input{
+        color :green;
+
+    }
+
+    img {
+        width: 700px;
+        margin: 100px;
+        border: forestgreen;
+        border-radius: 50%;
+        border-style: solid;
+        border-width:5%;
+    }
+
+    .gen{
+        color:yellow;
+        font-size: small;
+
+    }
+
+    #maleid{
+        color:black;
+        font-style: italic;
+        font-size: larger;
+
+    }
+
+    body{
+        background-image: linear-gradient(blueviolet,pink,gray);
+    }
+
+
+        </style>
+
+</head>
+
+<body>
+
+    <marquee behavior="Rajpoot" direction="left">Tushar Singh</marquee>
+   <form action="mailto: tusharrajpoot1972@gmail.com"  method="post">
+    Name: <br>
+    <input type="text" placeholder="Enter your name " name="Name"><br><br><br>
+Gender:<br>
+   <input type="radio" name="gender" value="male" id="gender_male">
+   <label for="gender_male"class="gen" id="maleid">Male</label>
+
+   <input type="radio" name="gender" value="female" id="gender_female">
+   <label for="gender_female" class="gen">Female</label>
+   <br>
+   Skills:
+   <input type="checkbox" name="Skill 1" id="skill_1" value="coding">
+   <label for="skill_1">coding</label>
+   <input type="checkbox" id="skill_2" name="Skills" value="playing">
+   <label for="skill_2">playing</label>
+
+   <input type="checkbox" id="skill_3" name="Skills" value="singing">
+   <label for="skill_3">Singing</label>
+
+    <br><br><br>
+    Stream:
+   <select name="Stream"  id="stream">
+     <option >--Select your stream--</option>  
+    <option>cse</option>
+    <option>civil</option>
+    <option >mechanical</option>
+    <option>chemical</option>
+
+
+   </select>
+   
+   <br><br><br>
+
+   <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJv2fLJWkmmyMuWNtqYSapq_2-Q6WSq_ZFKg&usqp=CAU">
+   <br><br><br>
+   <input type="submit"   value="Enter">
+    <input type="reset"    value="RESET"><br><br><br>
+
+
+   </form>
+
+</body>
+
+
+</html>
