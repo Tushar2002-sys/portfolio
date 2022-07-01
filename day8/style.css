@@ -9,7 +9,7 @@ body{
 }
 .main-box{
     margin-top: 100px;
-    margin-left: 550px;
+    
     width: 420px;
     box-shadow: 1.5px 1.5px 2px 5px #ed0d0d;
     display: flex;
